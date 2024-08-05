@@ -1,5 +1,5 @@
 geopy==2.4.1
-numpy==2.0.1
+#numpy==2.0.1
 pandas==2.2.2
 Requests==2.32.3
 scikit_learn==1.5.1

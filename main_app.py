@@ -66,8 +66,8 @@ if selected == "Predictions":
                 with open(r'SRFPA/scaler.pkl', 'rb') as f:
                     scaler_loaded = pickle.load(f)
 
-                st.write("loaded_model :", loaded_model)
-                st.write("scaler_loaded :", scaler_loaded)
+                #st.write("loaded_model :", loaded_model)
+                #st.write("scaler_loaded :", scaler_loaded)
 
                 # Calculating lease remain years using lease commence date
                 lease_remain_years = 99 - (2023 - lease_commence_date)
